@@ -1,0 +1,28 @@
+/* Default theme - light mode */
+:root {
+  --background-color: white;
+  --text-color: black;
+  --navbar-background: #f0f0f0;
+  --navbar-text-color: black;
+  --button-background: black;
+  --button-text-color: white;
+}
+
+/* Dark theme */
+[data-theme="dark"] {
+  --background-color: black;
+  --text-color: white;
+  --navbar-background: #333;
+  --navbar-text-color: white;
+  --button-background: white;
+  --button-text-color: black;
+}
+
+/* Global styles */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
